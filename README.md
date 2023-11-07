@@ -22,11 +22,16 @@ git clone https://github.com/ramachaitanya0/ask_pdf.git
 conda create -n <env_name> python=3.11.4
 ```
 
-3. Install all the required Packages using requirements.txt file.
+3. Activate the conda Environmen
+```sh
+conda activate <env_name> 
+```
+
+4. Install all the required Packages using requirements.txt file.
 ```sh
 pip install -r requirements.txt
 ```
-4. Add .env file in the Repo and add your OPEN AI Key in .env file.
+5. Add .env file in the Repo and add your OPEN AI Key in .env file.
 
 ```sh
 OPENAI_API_KEY=<OPENAI_API_KEY>
