@@ -22,7 +22,7 @@ git clone https://github.com/ramachaitanya0/ask_pdf.git
 conda create -n <env_name> python=3.11.4
 ```
 
-3. Activate the conda Environmen
+3. Activate the conda Environment
 ```sh
 conda activate <env_name> 
 ```
