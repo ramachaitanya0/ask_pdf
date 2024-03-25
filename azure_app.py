@@ -11,7 +11,7 @@ from langchain.vectorstores import Chroma
 from langchain.chat_models import AzureChatOpenAI, ChatOpenAI
 from langchain.chains import  ConversationalRetrievalChain
 from langchain import PromptTemplate
-load_dotenv("./azure.env")
+load_dotenv()
 print("Streamlit run has started")
 # Title
 st.title("Ask PDF")
@@ -134,7 +134,7 @@ Comprehend the context thoroughly and offer responses based solely on the provid
 print("started Chatbot")
 st.title("QA Bot")
 if "messages" not in st.session_state.keys():
-    st.session_state.messages = [{"role": "Assistant", "content": "How can i help you"}]
+    st.session_state.messages = [{"role": "Assistant", "content": "How can i help you ? "}]
 
 for msg in st.session_state.messages:
     st.chat_message(msg["role"]).write(msg["content"])
