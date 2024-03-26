@@ -1,6 +1,5 @@
 streamlit
 openai==0.28.1
-langchain==0.0.340
 numpy
 pandas
 PyPDF2
@@ -8,3 +7,4 @@ python-dotenv
 tiktoken
 pypdf
 chromadb==0.4.18
+langchain==0.0.350
